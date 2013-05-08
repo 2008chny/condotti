@@ -116,7 +116,7 @@ Condotti.add('condotti.lang', function (C) {
         
         params.forEach(function (param, index) {
             var stack = [],
-                frame = { paht: 'ROOT', target: target, source: param },
+                frame = { path: 'ROOT', target: target, source: param },
                 key = null,
                 value = null;
             
